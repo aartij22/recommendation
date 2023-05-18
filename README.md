@@ -23,10 +23,10 @@ The solution to this problem is divided into two main components:
 
 ## Relevance
 
-### Upselling 
+#### Upselling 
 The goal is to find similar products to the one in question. To achieve this, product embeddings are constructed and cosine similarity is utilized to identify the N Nearest Neighbors. Two approaches for creating embeddings are explored in the provided notebooks: using a pre-trained transformer model and training a transformer model from scratch. Although any Language Model (LM) or custom-built transformer could be used, BERT was chosen for this task. A result comparison between the two approaches is available in the repository.
 
-### Cross-Selling
+#### Cross-Selling
 Multiple approaches were employed and then combined in an ensemble to address this aspect.
 
 - `Co-occurrence`: This approach considers the frequency at which two products are purchased together, capturing their association.
