@@ -5,7 +5,7 @@ The objective of this repository is to address the challenges of **upselling** a
 
 ## Data
 
-The data used in this project is a sample from the H&M Personalized Fashion Recommendations Kaggle competition. The dataset can be accessed at the following link: [Kaggle Competition - H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data)
+The data used in this project is a sample from the H&M Personalized Fashion Recommendations Kaggle competition. You can find the data [here](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data).
 
 ## Files
 
@@ -38,3 +38,6 @@ Multiple approaches were employed and then combined in an ensemble to address th
 To rank the products for each user, a LambdaRank Model is trained using the relevance scores as features, along with carefully designed user/item features. This approach aims to provide personalized ranking for optimal recommendations.
 
 Please refer to the repository for further details and code implementation.
+
+**Each notebook in the respository includes a `Qualitative Analysis` section, showcasing the results obtained from that particular notebook.**
+
