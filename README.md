@@ -37,7 +37,6 @@ Multiple approaches were employed and then combined in an ensemble to address th
 
 To rank the products for each user, a LambdaRank Model is trained using the relevance scores as features, along with carefully designed user/item features. This approach aims to provide personalized ranking for optimal recommendations.
 
----
 ## Note
 Please refer to the repository for further details and code implementation.
 
