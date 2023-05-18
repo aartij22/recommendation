@@ -1,7 +1,7 @@
 ![versions](https://img.shields.io/badge/python-3.above-blue.svg)
 # Recommendation
 
-The objective of this repository is to address the challenges of **upselling** and **cross-selling** in the context of personalized fashion recommendations.
+The objective of this repository is to address the challenges of **upselling** and **cross-selling** in the context of personalized recommendations.
 
 ## Data
 
@@ -23,13 +23,15 @@ The solution to this problem is divided into two main components:
 
 ## Relevance
 
-`Upselling`: The goal is to find similar products to the one in question. To achieve this, product embeddings are constructed and cosine similarity is utilized to identify the N Nearest Neighbors. Two approaches for creating embeddings are explored in the provided notebooks: using a pre-trained transformer model and training a transformer model from scratch. Although any Language Model (LM) or custom-built transformer could be used, BERT was chosen for this task. A result comparison between the two approaches is available in the repository.
+### Upselling 
+The goal is to find similar products to the one in question. To achieve this, product embeddings are constructed and cosine similarity is utilized to identify the N Nearest Neighbors. Two approaches for creating embeddings are explored in the provided notebooks: using a pre-trained transformer model and training a transformer model from scratch. Although any Language Model (LM) or custom-built transformer could be used, BERT was chosen for this task. A result comparison between the two approaches is available in the repository.
 
-`Cross-Selling`: Multiple approaches were employed and then combined in an ensemble to address this aspect.
+### Cross-Selling
+Multiple approaches were employed and then combined in an ensemble to address this aspect.
 
-- **Co-occurrence**: This approach considers the frequency at which two products are purchased together, capturing their association.
-- **Collaborative Filtering**: Similar to co-occurrence, this approach also takes into account the individual occurrence of the two products to enhance the recommendations.
-- **User-User Similarity**: By utilizing product embeddings, embeddings for users are generated. Once the embedding representation for each user is obtained, the most similar users to a given user can be identified, and recommendations can be made based on the items favored by those similar users.
+- `Co-occurrence`: This approach considers the frequency at which two products are purchased together, capturing their association.
+- `Collaborative Filtering`: Similar to co-occurrence, this approach also takes into account the individual occurrence of the two products to enhance the recommendations.
+- `User-User Similarity`: By utilizing product embeddings, embeddings for users are generated. Once the embedding representation for each user is obtained, the most similar users to a given user can be identified, and recommendations can be made based on the items favored by those similar users.
 
 ## Ranking
 
