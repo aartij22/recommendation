@@ -9,7 +9,7 @@ The data used in this project is a sample from the H&M Personalized Fashion Reco
 
 ## Files
 
-* `transactions_train.csv`: This file contains user purchase history.
+* `transactions.csv`: This file contains user purchase history.
 * `articles.csv`: This file contains detailed metadata for each available article_id for purchase.
 * `customers.csv`: This file contains metadata for each customer_id in the dataset.
 
