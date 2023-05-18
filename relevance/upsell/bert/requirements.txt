@@ -1,0 +1,6 @@
+git+https://github.com/huggingface/transformers.git
+datasets!=2.5.0
+accelerate
+evaluate
+sentence-transformers
+tokenizers==0.13.1
